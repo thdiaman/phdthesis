@@ -10,4 +10,4 @@ state: under review
 bibtex: SOFTX2018.bib
 ---
 
-Abstract will be available until publication
+Abstract will be available after publication
