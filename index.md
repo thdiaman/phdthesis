@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-Hi! I am Themistoklis Diamantopoulos and this is a website accompanying my PhD thesis with title:
+Hi! I am <a href="https://thdiaman.github.io">Themistoklis Diamantopoulos</a> and this is a website accompanying my PhD thesis with title:
 
 <center style="padding-top:5px; padding-bottom:15px; font-size:125%">Mining Software Engineering Data for Software Reuse</center>
 
