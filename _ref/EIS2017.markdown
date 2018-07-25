@@ -3,7 +3,7 @@ name: EIS2017
 date: 2017-12-15
 type: journal
 authors: Themistoklis Diamantopoulos and Andreas Symeonidis
-title: 'Software Requirements as an Application Domain for Natural Language Processing'
+title: 'Enhancing Requirements Reusability through Semantic Modeling and Data Mining Techniques'
 journal: Enterprise Information Systems
 state: pp. 1-22
 bibtex: EIS2017.bib
