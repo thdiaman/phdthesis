@@ -4,7 +4,7 @@
     {% if pub.state %}
       {{ pub.state }}{% if pub.state contains 'under' %}.{% else %},{% endif %}
     {% else %}
-      vol {{ pub.volume }}, no {{ pub.number}}, pp. {{ pub.pages }},
+      vol {{ pub.volume }}, {% if pub.number %}no {{ pub.number}}, {% endif %}pp. {{ pub.pages }},
     {% endif %}
     {% if pub.state contains 'under' %}{% else %}{{ pub.date | date: "%B %Y" }}.{% endif %}
   {% elsif pub.type == "bookchapter" %}
@@ -12,7 +12,7 @@
     {% if pub.state %}
       {{ pub.state }},
     {% else %}
-      vol {{ pub.volume }}, no {{ pub.number}}, pp. {{ pub.pages }},
+      vol {{ pub.volume }}, {% if pub.number %}no {{ pub.number}}, {% endif %}pp. {{ pub.pages }},
     {% endif %}
     {{ pub.date | date: "%B %Y" }}.
   {% elsif pub.type == "conference" %}
