@@ -1,0 +1,49 @@
+The need for effective software development and maintenance has long been identified
+in the field of Software Engineering. Today, however, that new collaborative development
+paradigms and open-source software initiatives have been introduced, the amount of software
+engineering data that are available online is vast, thus the challenge is to effectively analyze
+them in order to produce better software. And this challenge is actually a problem of reuse.
+In this thesis, we provide a unified approach that includes applying data mining techniques
+on software engineering data in order to enable reuse in different phases of the software
+engineering life cycle. Our methodology offers solutions for the phases of requirements
+elicitation and specification extraction, software design and development, and quality assurance
+and testing.
+
+Initially, we focus on requirements elicitation and specification extraction, where we
+build ontologies for storing software requirements. Using a set of our designed tools, the
+requirements engineer can instantiate our model from functional requirements written in
+natural language, graphical storyboards and/or UML diagrams. Our modeling approach allows
+validating the requirements, extracting specifications, as well as applying data mining
+techniques for reusing requirements. Furthermore, we propose different methodologies for
+recommending requirements, based on association rule extraction and matching techniques.
+
+Concerning the phase of software development, we facilitate reuse at different levels. At
+first, we design a code search engine that is oriented towards reuse. Our engine is based on an
+index that allows searching for source code components, for code snippets, and for multiple
+objects (at project level, e.g. for finding architectural patterns). After that, we propose a
+source code recommendation system that encompasses test-driven reuse. Our system uses
+information retrieval techniques and employs a syntax-aware mining model to retrieve components
+that are relevant to the query of the developer. The results are also further examined
+using tests to ensure that they cover the required functionality. The next challenge that we
+face is that of connecting source code components, which is usually performed with snippets.
+In this context, we propose a system that accepts queries in natural language and downloads
+snippets, which are subsequently clustered according to the libraries used. The libraries and
+the snippets are ranked according to their preference by the developer community. Finally,
+in an effort to further improve on retrieved code (or generally any code written by the
+developer), we propose a code validation methodology given information from questionanswering
+services. We analyze the problem of finding similar question posts in these services,
+and specifically recommend the use of source code for finding relevant snippets.
+
+The third axis of this thesis involves evaluating the quality of the retrieved components.
+To this end, we initially present a source code recommendation system that evaluates the
+retrieved components both from a functional and from a reusability perspective. Our system
+involves a syntax-aware matching mechanism and a model that assesses the reusability of
+each component. After that, we design a more fine-grained reusability estimation model for
+source code components, based on their preference/reuse rate by the developer community.
+Our model, which is built using machine learning techniques, is capable of assessing the
+quality of source code components as perceived by developers.
+
+All in all, in this thesis we apply data mining techniques on software engineering data, in
+order to provide a unified solution for practicing reuse in all phases of software development
+and maintenance. This solution aims to create better software with minimal cost and effort,
+thus affecting important economic and social aspects of everyday life.
