@@ -56,6 +56,6 @@ Furthermore, the list of projects used to create our API calls index can be foun
 This chapter describes a methodology for finding solutions in question-answering systems,
 using the main elements of a question post, including its title, tags, body, and 
 its source code snippets. Our methodology is applied on the official data dump of Stack
-Overflow as of September 26, 2014, which is available
-<a target="_blank" href="http://2015.msrconf.org/challenge_data/">here</a>.
+Overflow as of September 26, 2014 (official data dumps of Stack Exchange sites, including Stack Overflow, are available
+<a target="_blank" href="https://archive.org/details/stackexchange">here</a>).
 
